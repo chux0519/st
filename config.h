@@ -96,23 +96,22 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 static const char *colorname[] = {
-    "#32302f", /* base00 x*/
-    "#fb4934", /* base08 x*/
-    "#b8bb26", /* base0B x*/
-    "#fabd2f", /* base0A x*/
-    "#83a598", /* base0D x*/
-    "#d3869b", /* base0E x*/
-    "#8ec07c", /* base0C x*/
-    "#d5c4a1", /* base05 */
-    "#665c54", /* base03 x*/
-    "#fe8019", /* base09 x*/
-    // "#3c3836", /* base01 */
-    "#FFB39C", /*xxx*/
-    "#504945", /* base02 x */
-    "#bdae94", /* base04 */
-    "#ebdbb2", /* base06 */
+    "#262626", /* base00 */
+    "#d75f5f", /* base08 */
+    "#afaf00", /* base0B */
+    "#ffaf00", /* base0A */
+    "#83adad", /* base0D */
+    "#d485ad", /* base0E */
+    "#85ad85", /* base0C */
+    "#dab997", /* base05 */
+    "#8a8a8a", /* base03 */
+    "#ff8700", /* base09 */
+    "#3a3a3a", /* base01 */
+    "#4e4e4e", /* base02 */
+    "#949494", /* base04 */
+    "#d5c4a1", /* base06 */
     "#d65d0e", /* base0F */
-    "#fbf1c7", /* base07 x*/
+    "#ebdbb2", /* base07 */
 };
 
 unsigned int defaultfg = 7;
