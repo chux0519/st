@@ -5,9 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font =
-    "Fira Code:size=12:Noto Color Emoji:Liberation "
-    "Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Fira Code:size=12:Noto Color Emoji:Liberation "
+                    "Mono:pixelsize=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -96,22 +95,22 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 static const char *colorname[] = {
-    "#262626", /* base00 */
-    "#d75f5f", /* base08 */
-    "#afaf00", /* base0B */
-    "#ffaf00", /* base0A */
-    "#83adad", /* base0D */
-    "#d485ad", /* base0E */
-    "#85ad85", /* base0C */
-    "#dab997", /* base05 */
-    "#8a8a8a", /* base03 */
-    "#ff8700", /* base09 */
-    "#3a3a3a", /* base01 */
-    "#4e4e4e", /* base02 */
-    "#949494", /* base04 */
-    "#d5c4a1", /* base06 */
-    "#d65d0e", /* base0F */
-    "#ebdbb2", /* base07 */
+    "#1d1f21", /* base00 */
+    "#cc342b", /* base08 */
+    "#198844", /* base0B */
+    "#fba922", /* base0A */
+    "#3971ed", /* base0D */
+    "#a36ac7", /* base0E */
+    "#3971ed", /* base0C */
+    "#c5c8c6", /* base05 */
+    "#969896", /* base03 */
+    "#f96a38", /* base09 */
+    "#282a2e", /* base01 */
+    "#373b41", /* base02 */
+    "#b4b7b4", /* base04 */
+    "#e0e0e0", /* base06 */
+    "#3971ed", /* base0F */
+    "#ffffff", /* base07 */
 };
 
 unsigned int defaultfg = 7;
@@ -453,7 +452,6 @@ static uint selmasks[] = {
  * Printable characters in ASCII, used to estimate the advance width
  * of single wide characters.
  */
-static char ascii_printable[] =
-    " !\"#$%&'()*+,-./0123456789:;<=>?"
-    "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
-    "`abcdefghijklmnopqrstuvwxyz{|}~";
+static char ascii_printable[] = " !\"#$%&'()*+,-./0123456789:;<=>?"
+                                "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
+                                "`abcdefghijklmnopqrstuvwxyz{|}~";
